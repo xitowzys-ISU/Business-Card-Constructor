@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="icon" href="images/favicon.png">
+   <title>Конструктор визиток</title>
+</head>
+
+<body>
+   <div class="appContainer">
+      <div class="constructorContainer">
+         <div class="titleApp">
+            <h1>Конструктор визиток</h1>
+         </div>
+
+         <form name="main" method="post" action="#">
+
+            <div class="inputContainer">
+               <label>Наименование организации</label><br>
+               <input type="text" name="containerOrganization" placeholder="ООО &#171;Ориентир&#187;">
+            </div>
+
+            <div class="inputContainer">
+               <label>Фамилия, имя, отчество</label>
+
+               <br>
+
+               <input type="text" name="constructorName" placeholder="Федоров Иван Семенович">
+
+               <div class="multiButton">
+                  <div class="multiButtonGroupItem">
+                     <input id="containerNameAlign-1" type="radio" name="containerNameAlign" value="left">
+                     <label for="containerNameAlign-1" form="name"><i class="las la-align-left"></i></label>
+                  </div>
+                  <div class="multiButtonGroupItem">
+                     <input id="containerNameAlign-2" type="radio" name="containerNameAlign" value="center" checked>
+                     <label for="containerNameAlign-2" form="name"><i class="las la-align-justify"></i></label>
+                  </div>
+                  <div class="multiButtonGroupItem">
+                     <input id="containerNameAlign-3" type="radio" name="containerNameAlign" value="right">
+                     <label for="containerNameAlign-3" form="name"><i class="las la-align-right"></i></label>
+                  </div>
+               </div>
+
+
+               <div class="multiButton">
+                  <div class="multiButtonGroupItem">
+                     <input id="containerNameSize-1" type="radio" name="containerNameSize" value="24">
+                     <label for="containerNameSize-1" form="name">24px</label>
+                  </div>
+                  <div class="multiButtonGroupItem">
+                     <input id="containerNameSize-2" type="radio" name="containerNameSize" value="26" checked>
+                     <label for="containerNameSize-2" form="name">26px</label>
+                  </div>
+                  <div class="multiButtonGroupItem">
+                     <input id="containerNameSize-3" type="radio" name="containerNameSize" value="28">
+                     <label for="containerNameSize-3" form="name">28px</label>
+                  </div>
+               </div>
+
+               <div class="colorPicker">
+                  <label>
+                     <input type="radio" name="colorPickName" value="black" checked="">
+                     <div class="colorOption" style="background-color: black">
+                     </div>
+                  </label>
+                  <label>
+                     <input type="radio" name="colorPickName" value="#3F88E8">
+                     <div class="colorOption" style="background-color: #3F88E8">
+                     </div>
+                  </label>
+                  <label>
+                     <input type="radio" name="colorPickName" value="#E83F56">
+                     <div class="colorOption" style="background-color: #E83F56">
+                     </div>
+                  </label>
+                  <label>
+                     <input type="radio" name="colorPickName" value="#097A14">
+                     <div class="colorOption" style="background-color: #097A14">
+                     </div>
+                  </label>
+                  <label>
+                     <input type="radio" name="colorPickName" value="#DCA40A">
+                     <div class="colorOption" style="background-color: #DCA40A">
+                     </div>
+                  </label>
+                  <label>
+                     <input type="radio" name="colorPickName" value="#DC0AD5">
+                     <div class="colorOption" style="background-color: #DC0AD5">
+                     </div>
+                  </label>
+               </div>
+            </div>
+
+            <div class="inputContainer">
+               <label>Должность</label>
+
+               <br>
+
+               <input type="text" name="containerPositionAtWork" placeholder="Менеджер по развитию">
+
+               <div class="multiButton name">
+                  <div class="multiButtonGroupItem">
+                     <input id="containerPositionAtWorkAlign-1" type="radio" name="containerPositionAtWorkAlign"
+                        value="left">
+                     <label for="containerPositionAtWorkAlign-1" form="name"><i class="las la-align-left"></i></label>
+                  </div>
+                  <div class="multiButtonGroupItem">
+                     <input id="containerPositionAtWorkAlign-2" type="radio" name="containerPositionAtWorkAlign"
+                        value="center" checked>
+                     <label for="containerPositionAtWorkAlign-2" form="name"><i
+                           class="las la-align-justify"></i></label>
+                  </div>
+                  <div class="multiButtonGroupItem">
+                     <input id="containerPositionAtWorkAlign-3" type="radio" name="containerPositionAtWorkAlign"
+                        value="right">
+                     <label for="containerPositionAtWorkAlign-3" form="name"><i class="las la-align-right"></i></label>
+                  </div>
+               </div>
+
+
+               <div class="multiButton name">
+                  <div class="multiButtonGroupItem">
+                     <input id="containerPositionAtWorkSize-1" type="radio" name="containerPositionAtWorkSize"
+                        value="14">
+                     <label for="containerPositionAtWorkSize-1" form="name">14px</label>
+                  </div>
+                  <div class="multiButtonGroupItem">
+                     <input id="containerPositionAtWorkSize-2" type="radio" name="containerPositionAtWorkSize"
+                        value="16" checked>
+                     <label for="containerPositionAtWorkSize-2" form="name">16px</label>
+                  </div>
+                  <div class="multiButtonGroupItem">
+                     <input id="containerPositionAtWorkSize-3" type="radio" name="containerPositionAtWorkSize"
+                        value="18">
+                     <label for="containerPositionAtWorkSize-3" form="name">18px</label>
+                  </div>
+               </div>
+
+               <div class="colorPicker">
+                  <label>
+                     <input type="radio" name="colorPickPositionAtWork" value="#474747" checked="">
+                     <div class="colorOption" style="background-color: #474747">
+                     </div>
+                  </label>
+                  <label>
+                     <input type="radio" name="colorPickPositionAtWork" value="#202020">
+                     <div class="colorOption" style="background-color: #202020">
+                     </div>
+                  </label>
+                  <label>
+                     <input type="radio" name="colorPickPositionAtWork" value="#636363">
+                     <div class="colorOption" style="background-color: #636363">
+                     </div>
+                  </label>
+                  <label>
+                     <input type="radio" name="colorPickPositionAtWork" value="#9E9E9E">
+                     <div class="colorOption" style="background-color: #9E9E9E">
+                     </div>
+                  </label>
+                  <label>
+                     <input type="radio" name="colorPickPositionAtWork" value="#BBBBBB">
+                     <div class="colorOption" style="background-color: #BBBBBB">
+                     </div>
+                  </label>
+                  <label>
+                     <input type="radio" name="colorPickPositionAtWork" value="#E3E3E3">
+                     <div class="colorOption" style="background-color: #E3E3E3">
+                     </div>
+                  </label>
+               </div>
+            </div>
+
+            <div class="inputContainer">
+               <label>Телефон</label><br>
+               <input type="tel" name="containerTel" placeholder="8 (999) 123-45-67">
+
+               <div class="addSecondTel">
+                  <input class="btn btnAdd" type="button" value="+" placeholder="8 (999) 342-132-123">
+                  <label>Добавить еще один телефон</label><br>
+               </div>
+
+            </div>
+
+            <div class="inputContainer">
+               <label>E-mail</label><br>
+               <input type="email" name="containerEmail" placeholder="fedorov.is@orientir.org">
+
+               <label class="checkboxLabel">
+                  <input class="checkboxTick" type="checkbox" value="" checked>
+                  <span>Отображать</span>
+               </label>
+            </div>
+
+            <div class="inputContainer">
+               <label>Адрес</label><br>
+               <input type="text" name="containerAddress" placeholder="Иркутск, Байкальская, 421, оф. 12">
+
+               <label class="checkboxLabel">
+                  <input class="checkboxTick" type="checkbox" value="" checked>
+                  <span>Отображать</span>
+               </label>
+            </div>
+
+            <input class="btn btnSubmit" type="button" value="Применить">
+         </form>
+
+      </div>
+
+      <div class="cardContainer">
+         <div class="cardCompany">
+            <span>Company Name</span>
+         </div>
+         <div class="cardName">
+            <span>Name</span>
+         </div>
+         <div class="cardPositionAtWork">
+            <span>Job Position</span>
+         </div>
+         <div class="contactInfo">
+            <div class="cardFirstPhone">
+               <span>8 (904) 124-85-33</span>
+            </div>
+            <div class="cardEmail">
+               <span>exampleEmail@mail.ru</span>
+            </div>
+            <div class="cardAddress">
+               <span>city, street, house</span>
+            </div>
+         </div>
+      </div>
+
+   </div>
+
+   <link rel="stylesheet" href="css/main.min.css">
+   <script src="js/scripts.min.js"></script>
+</body>
+
+</html>

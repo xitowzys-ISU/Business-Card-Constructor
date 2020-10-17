@@ -1,0 +1,8 @@
+{
+  "name": "raidemot",
+  "version": "1.0.0",
+  "description": "RAIDEMOT",
+  "devDependencies": {
+    "line-awesome": "https://github.com/icons8/line-awesome.git"
+  }
+}
